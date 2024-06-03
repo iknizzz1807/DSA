@@ -15,7 +15,7 @@ int main() {
     for(int i = 0; i < n; ++i) {
         cin >> arr[i];
     }
-    // linearSearch
+
     int x; cin >> x;
     cout << linearSearch(arr, n, x);
     return 0;
