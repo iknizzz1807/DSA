@@ -51,6 +51,7 @@ void importList(list *&list) {
     addHead(list, 1);
     addHead(list, 7);
     addTail(list, 9);
+    addHead(list, 13);
 }
 
 void printList(list *list) {
