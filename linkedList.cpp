@@ -47,6 +47,7 @@ void createEmptyList(list *&lst) {
 
 void importList(list *&list) {
     addTail(list, 3);
+    addHead(list, 8);
     addTail(list, 5);
     addHead(list, 1);
     addHead(list, 7);
