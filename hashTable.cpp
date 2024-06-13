@@ -71,6 +71,7 @@ int main() {
     createEmptyTable(hashTable);
     insert(hashTable, new hocSinh(31245, "Nguyen My Thong"));
     insert(hashTable, new hocSinh(47133, "Tran Van Trong"));
+    insert(hashTable, new hocSinh(53403, "Dao Thi Thy")); // Collision
     search(hashTable, 47133);
     return 0;
 }
